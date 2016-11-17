@@ -55,13 +55,22 @@ aside{
 
 
 }
+aside div{
+    height: 60px;
+    width: 100px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    text-align: center;
+    margin: 30px auto;
+
+}
 .box1 {
     height: 60px;
     width: 100px;
     background-color: blueviolet;
     border: 2px solid black;
     text-align: center;
-    margin: auto;
+    margin:  auto;
 
 }
 .box2 {
@@ -83,11 +92,13 @@ aside{
     margin: auto;
 
 }
-.footer {
+footer {
     height: 100px;
     width:100%;
     background-color: cornflowerblue;
     border: 2px solid black;
+    font-family: cursive;
+    font-size: 18px;
     text-align: center;
     position: fixed;
     bottom: 0;
