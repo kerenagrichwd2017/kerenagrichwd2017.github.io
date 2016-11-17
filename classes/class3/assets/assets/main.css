@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+p{
+    font-size: 30px;
+}
+.bigDiv{
+    height:100px;
+    background-color: aquamarine;
+    width:100px;
+    position: relative;
+}
+nav div{
+    height:50px;
+    width:50px;
+    background-color: crimson;
+    display: inline-block;
+}
+#childDiv{
+    height:50px;
+    width:50px;
+    background-color: crimson;
+}
+
+.bigDiv div{
+    height:50px;
+    width:50px;
+    background-color: crimson;
+    position: relative;
+    top:-10px;
+    left:-20px;
+    border:3px solid green;
+
+}
+.bigDiv .offThePage{
+    position: absolute;
+    top:100px;
+    left:100px;
+}
+nav{
+    height:200px;
+    width:200px;
+    padding: 30px 10px;
+    margin:30px auto;
+    border:3px solid black;
+    box-sizing: border-box;
+    text-align: center;
+}
+main article{
+    height:200px;
+    width:20%;
+    padding: 30px 10px;
+    margin:5%;
+    border: 3px solid black;
+    float:left;
+}
+
+.clearfix{clear:both;}
+
+figure{
+    float:left;
+}
+section{
+    width:70%;
+    background-color: blue;
+    overflow: hidden;
+    float:left;
+}
+aside{
+    background-color: red;
+    height:500px;
+    width:25%;
+    float:right;
+}
+footer{
+    height:100px;
+    background-color: purple;
+    width:100%;
+    position: fixed;
+    bottom:0;
+}
+
+figcaption{
+    display:none;
+}
+img:hover{
+  /*  opacity: .50;*/
+}
+img:over ~ figcaption{
+    display: block;
+}
