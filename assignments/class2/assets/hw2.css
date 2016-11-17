@@ -1,0 +1,95 @@
+{
+    box-sizing: border-box;
+}
+
+header{
+    height:300px;
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+
+nav{
+    height: 500px;
+    width:200px;
+    background-color: coral;
+    border: 2px solid black;
+    position: fixed;
+    margin-top: 300px;
+    float:left;
+}
+
+main{
+    height:1000px;
+    background-color: peachpuff;
+    border:2px solid black;
+    padding: 200px;
+}
+
+main section{
+    font-family: cursive;
+    font-size: 28px;
+    padding: 10px;
+}
+
+figure {
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+
+}
+.tiger{
+    float:left;
+}
+.nyc{
+   float: right;
+}
+
+aside{
+    width:200px;
+    height: 310px;
+    background-color: darksalmon;
+    border: 2px solid black;
+    position: absolute;
+    right:9px;
+    bottom: 120px;
+
+
+}
+.box1 {
+    height: 60px;
+    width: 100px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+
+}
+.box2 {
+    height: 60px;
+    width: 100px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+
+
+}
+.box3 {
+    height: 60px;
+    width: 100px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+
+}
+.footer {
+    height: 100px;
+    width:100%;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+
+}
