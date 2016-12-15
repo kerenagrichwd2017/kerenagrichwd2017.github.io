@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Class 7 Work </title>
+        <link href="main.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="clickme" data-something="something">click here</div>
+        <div id="menu">here is the menu<br> more <br>more</div>
+
+        <p> here is some text<a href="#" data-title="some help text"> some text</a></p>
+
+        <main>
+            <table>
+                <caption>A table of people</caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Place of birth</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Keren</td>
+                        <td>Baltimore</td>
+                        <td rowspan="2">21 years</td>
+                    </tr>
+                    <tr>
+                        <td>Naomi</td>
+                        <td>New York</td>
+
+                    </tr>
+                     <tr>
+                        <td>Rivky</td>
+                        <td colspan="2">Chicago</td>
+
+                    </tr>
+                </tbody>
+
+            </table>
+
+            <form id="myform">
+                <fieldset>
+                    <legen> Tell me about yourself</legen>
+                    <input type="text" name="myname" placeholder="type your name" required>
+                    <input type="number" name="myage" min=18 max=55 step=3 placeholder="your age" disabled>
+                    <input type="email" name="myemail" placeholder="type your email" autofocus>
+                </fieldset>
+                <div>Choose favorite colors</div>
+                <input type="checkbox" name="favecolor" value="red" id="color_red" ><label for="color_red">Red</label>
+                <input type="checkbox" name="favecolor" value="blue" id="color_blue"><label for="color_blue">Blue</label>
+                <input type="checkbox" name="favecolor" value="yellow" id="color_yellow"><label for="color_yellow">Yellow</label>
+
+                <div>Choose 1 favorite shape</div>
+                <input type="radio" name="faveshape" value="square" id="square"><label for="square">Square</label>
+                <input type="radio" name="faveshape" value="circle" id="circle"><label for="square">Circle</label>
+                <input type="radio" name="faveshape" value="triangle" id="triangle"><label for="square">Triangle</label>
+
+                <input type="password" name="mypass" placeholder="type your password" maxlength="5">
+                <input type="file" name="myfile" multiple>
+                <input type="range" name="myname" min=0 max=100 value=25>
+                <input type="reset" value="click here to reset">
+
+                <div>What's the weather?</div>
+                <select name="weather">
+                    <option value="freezing">Freezing</option>
+                    <option value="cold" selected>Cold</option>
+                    <option value="warm">Warm</option>
+                </select>
+
+                <textarea rows="4" cols="100" name="message"></textarea>
+
+                <input type="submit" value="Click Me!">
+
+            </form>
+
+
+        </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    </body>
+</html>
