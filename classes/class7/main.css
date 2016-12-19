@@ -34,7 +34,7 @@
 a{
     position: relative;
 }
-a:after{
+a::after{
     position: absolute;
     content: attr(data-title);
     background: orange;
@@ -43,7 +43,7 @@ a:after{
     white-space: nowrap; /* no line breaks, styas in one line*/
     display: none;
 }
-a:hover:after{
+a:hover::after{
     display: inline-block;
 
 }

@@ -23,7 +23,7 @@ $(function(){
         }
     });
 
-    $("#myform").submit{function(e){   /* e= event*/
+    $("#myform").submit(function(e){   /* e= event*/
         e.preventDefault();
     });
 
