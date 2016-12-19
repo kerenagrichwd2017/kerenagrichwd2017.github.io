@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+#circle{
+    height: 600px;
+    width: 600px;
+    border-radius: 500px;
+    background: hsl(0, 50%, 50%);
+    margin:auto;
+    position: relative;
+    top: 25px;
+
+}
+input{
+    display: block;
+    position:relative;
+    top:100px;
+    left:600px;
+    width: 600px;
+    height: 50px;
+}
+
+
+
