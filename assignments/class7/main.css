@@ -23,5 +23,10 @@ input{
     height: 50px;
 }
 
+#circle::before{
+    content: attr(data-color);
+
+}
+
 
 
