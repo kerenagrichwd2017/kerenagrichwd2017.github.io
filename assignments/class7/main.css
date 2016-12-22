@@ -12,21 +12,27 @@
     margin:auto;
     position: relative;
     top: 25px;
+}
+#circle::after{
+    content: attr(data-color);
+    position: absolute;
+    background: rgba(255,255,255,.5);
+    display:none;
 
 }
+#circle:after::hover{
+    display: block;
+}
+
 input{
     display: block;
     position:relative;
     top:100px;
-    left:600px;
-    width: 600px;
-    height: 50px;
-}
-
-#circle::before{
-    content: attr(data-color);
+    left:200px;
 
 }
+
+
 
 
 

@@ -7,15 +7,15 @@
     </head>
     <body>
         <main>
-            <div id="circle"> </div>
-
-            <input type="range" name="saturation" min=0 max=100 step="5" id="sat">
+            <div id="circle" data-color="hsl(0,50%,50%)"> </div>
+        <form>
+            <input type="range" name="saturation" min=0 max=100 step="5" id="sat"><label for="sat">Saturation</label>
             <br>
-            <input type="range" name="lightness" min=0 max=100 step="5" id="light">
-
+            <input type="range" name="lightness" min=0 max=100 step="5" id="light"><label for="light">Lightness</label>
+        </form>
         </main>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="main.js"></script>
+    <script src="circle.js"></script>
     </body>
 </html>

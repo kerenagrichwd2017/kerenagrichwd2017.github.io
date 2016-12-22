@@ -1,0 +1,92 @@
+div{
+    width:200px;
+    height:100px;
+    margin:20px;
+
+}
+
+#div1{
+    background-color: red;
+    background:linear-gradient(red,yellow);
+}
+#div2{
+    background-color: blue;
+    background: linear-gradient(aqua,blue,purple);
+}
+#div3{
+    background-color: red;
+    background:linear-gradient(red,red 20%, yellow 20%, yellow 80%, blue 80%);
+}
+#div4{
+    background-color: red;
+    background:linear-gradient(45deg, red,red 20%, yellow 20%, yellow 80%, blue 80%);
+
+}
+#div5{
+    position: relative;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+#div5::after{
+    content: '';
+    display: inline-block;
+    position:absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right:0;
+/*    background: linear-gradient(transparent,white);*/
+    background: linear-gradient(to right, hsla(0,20%, 20%, .1), hsla(0,20%, 20%, .8));
+}
+#div6{
+    background-color: red;
+    background: radial-gradient(at top right, red, yellow);
+}
+#div7{
+    width: 600px;
+    background-color: red;
+    background: radial-gradient(circle closest-side, red, yellow);
+}
+#div8{
+    background-color: red;
+    background: repeating-linear-gradient(45deg, yellow, yellow 10px, red 10px, red 20px);
+}
+#div9{
+    background-color: red;
+    background: repeating-radial-gradient(circle, red, red 10px, orange 10px, orange 20px);
+    background: repeating-radial-gradient(circle at 0 0, #eee, #ccc 50px);
+}
+#div10{
+    background:
+    linear-gradient(135deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+    linear-gradient(225deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+    background-color:#708090;
+    background-size: 64px 128px
+}
+#div11{
+    background-color:silver;
+    background-image:
+    radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50%  100%, white 10%, aqua 11%, aqua 23%, white 24%, white 30%, aqua 31%, silver 43%, white 44%, white 50%, aqua 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),
+    radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent),
+    radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+    background-size:100px 50px;
+}
+
+html{
+    background: transparent url("chocolate.jpg") no-repeat fixed 0 0 / cover;
+    position: relative;
+}
+html::after{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: hsla(175, 80%, 90%, .5);
+    z-index: -1;
+
+}

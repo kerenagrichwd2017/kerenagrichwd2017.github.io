@@ -1,0 +1,26 @@
+html{
+    background: transparent url("nyc.jpg") no-repeat fixed 0 0 /cover;*/
+    position: absolute;
+
+}
+html::after{
+    background-color:  #eff4ee;
+    background: linear-gradient(to top,transparent, #eff4ee);
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background: #f3e6c7;
+}
+#logo{
+    height=80px;
+    width=100px;
+}
