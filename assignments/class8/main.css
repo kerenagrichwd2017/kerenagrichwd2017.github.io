@@ -13,14 +13,51 @@ html::after{
     top: 0;
     left: 0;
     z-index: -1;
-
 }
 nav{
     height: 80px;
     width: 100%;
     background: #f3e6c7;
+
 }
+img{
+    float: left;
+    width: 150px;
+    height: 80px;
+}
+nav li{
+    display: inline-block;
+}
+nav:after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+nav:hover{
+    color: #f3e6c7;
+    background-color: white;
+    opacity: .2;
+}
+nav li:hover{
+    color: #f3e6c7;
+    border-top: 2px solid #db8a58;
+}
+
 #logo{
-    height=80px;
+    height=100px;
     width=100px;
+    float: left;
 }
+
+nav > ul > li{
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+    font-size: 24px;
+}
+#sub ul li{
+    display: block;
+
+}
+
