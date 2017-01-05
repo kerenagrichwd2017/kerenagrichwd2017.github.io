@@ -27,6 +27,7 @@ img{
 }
 nav li{
     display: inline-block;
+    border-top: 2px solid transparent;
 }
 nav:after{
     content: '';
@@ -36,12 +37,12 @@ nav:after{
 
 nav:hover{
     color: #f3e6c7;
-    background-color: white;
-    opacity: .2;
+    background-color:rgba(255,255,255,.2) ;
+
 }
 nav li:hover{
     color: #f3e6c7;
-    border-top: 2px solid #db8a58;
+    border-color: #db8a58;
 }
 
 #logo{
@@ -55,9 +56,14 @@ nav > ul > li{
     padding: 5px;
     position: relative;
     font-size: 24px;
+    vertical-align: top;
 }
 #sub ul li{
     display: block;
 
-}
 
+}
+#sub{
+    height: 0;
+    overflow: hidden;
+}
