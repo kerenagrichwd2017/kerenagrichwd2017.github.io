@@ -1,0 +1,34 @@
+@font-face{
+    font-family:"fancy font";
+    src: url('./fonts/'AlexBrush-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+span{
+    font-family: "fancy font";
+    font-size: 1.5em;
+}
+h1{
+    font-family: 'Lemonada', cursive;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    color: darkmagenta;
+}
+h2{
+    font-family: 'Lemonada', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    line-height: .2em;
+}
+}
+p{
+    font-family: 'Lemonada', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    line-height: 1em;
+    color: rebeccapurple;
+    margin: 50px;
+
+}

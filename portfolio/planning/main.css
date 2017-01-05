@@ -1,0 +1,40 @@
+@font-face{
+    font-family:"contact icons";
+    src: url('Entypo.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+#phone{
+    font-family:"contact icons";
+    font-size: 2.5em;
+    line-height: .1em;
+}
+#email{
+    font-family:"contact icons";
+    font-size: 2.5em;
+    line-height: .1em;
+}
+#address{
+    font-family:"contact icons";
+    font-size: 2.5em;
+    line-height: .1em;
+}
+html{
+    background-color: aliceblue;
+
+}
+div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+    display: inline-block;
+    padding-right: 20px;
+
+}
+#aqua{
+    background-color: aqua;
+}
+#white{
+    background-color: white;
+}
