@@ -1,13 +1,13 @@
 @font-face{
     font-family:"fancy font";
-    src: url('./fonts/'AlexBrush-Regular.ttf');
+    src: url('AlexBrush-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 span{
     font-family: "fancy font";
-    font-size: 1.5em;
+    font-size: 3em;
 }
 h1{
     font-family: 'Lemonada', cursive;
