@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 18px;
+    font-family: cursive;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    text-align: center;
+    font-size: 40px;
+    float: left;
+    overflow: hidden;
+    margin-left: 20px;
+}
+.hamburger{
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    float: right;
+    margin-right: 20px;
+    overflow: hidden;
+
+}
+
+.main_content h2{
+    color:aqua;
+}
+.main_content h2::first-line{
+    color:
+}
+
+.bg_text about{
+    position: absolute;
+    //z-index
+}
+.bg_text creative{
+    position: absolute;
+/*    z-index: */
+}
