@@ -5,7 +5,8 @@
 }
 body{
     font-size: 18px;
-    font-family: cursive;
+    font-family: serif;
+
 }
 .logo{
     height: 50px;
@@ -18,24 +19,47 @@ body{
     margin-left: 20px;
 }
 .hamburger{
-    height: 20px;
-    width: 20px;
-    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    font-size: 12px;
     float: right;
     margin-right: 20px;
     overflow: hidden;
 
 }
-
+section{
+    position: relative;
+}
 .main_content h2{
-    color:aqua;
+    color:black;
 }
 .main_content h2::first-line{
-    color:
+    color:aqua;
+}
+.main_content{
+    margin:100px 0 0 20%   ;
+    display:inline-block;
+    width: 600px;
+    height: 800px;
+}
+
+.side_image{
+    height: 500px;
+    width: 300px;
+    background: grey;
+    position: absolute;
+    top:10%;
+    margin-left: 20%;
+    left:550px;
+    display:inline-block;
+    z-index: -1;
+
+
 }
 
 .bg_text about{
     position: absolute;
+    font
     //z-index
 }
 .bg_text creative{
