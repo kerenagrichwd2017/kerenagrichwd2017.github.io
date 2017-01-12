@@ -20,7 +20,12 @@
     line-height: .1em;
 }
 html{
-    background-color: aliceblue;
+
+
+}
+img{
+    width: 300px;
+    height: 150px;
 
 }
 div{
@@ -32,9 +37,17 @@ div{
     padding-right: 20px;
 
 }
-#aqua{
-    background-color: #00FFFF;
+#burgundy{
+    background-color: #8C001A;
 }
 #white{
     background-color: #FFFFFF;
+}
+#grey{
+    background-color: #696969;
+}
+#font{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    line-height: 5em;
 }
