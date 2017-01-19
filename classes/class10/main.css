@@ -3,11 +3,100 @@
     margin: 0;
     padding: 0;
 }
+@font-face{
+    font-family:"contact icons";
+    src: url('Entypo.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+/*
 body{
     font-size: 18px;
     font-family: serif;
 
 }
+*/
+nav div, footer span{
+   height: 100px;
+    display: inline-block;
+}
+.logo a{
+    color: white;
+    background:olive;
+    padding: 15px;
+}
+.hamburger a{
+    font-family:"contact icons";
+    color: black;
+    text-decoration: none;
+}
+hamburger}{
+    float: right;
+}
+.main_content, .side_image{
+    float: left;
+}
+.main_content{
+    padding-left: 20%;
+    padding-top: 75px;
+    width: 60%;
+    position: relative;
+}
+.side_image{
+    padding-right: 20%;
+    width: 40%;
+    position: relative;
+    left: -75px;
+    z-index: -1;
+}
+.main_content h2{
+    margin: 20px;
+    position: relative;
+    display: inline-block;
+}
+.main_content h2::first-line{
+    content:'';
+    display: block;
+    border:5px solid grey;
+    position: absolute;
+}
+.main_content h2::after{
+    content: '';
+    display: block;
+    border: 3px solid olive;
+    position: absolute;
+    left:15px;
+    top:0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.main_content::after{
+    content: '';
+    display: block;
+    border: 3px solid olive;
+    position: absolute;
+    top: 0;
+    width: 20px;
+    bottom:-10px;
+}
+
+.bg_text{
+    position: absolute;
+    font-size: 100px;
+    color: beige;
+    z-index: -1;
+}
+
+
+
+
+
+.creative_section{
+    overflow: hidden;
+}
+
+/*
 .logo{
     height: 50px;
     width: 50px;
@@ -18,6 +107,8 @@ body{
     overflow: hidden;
     margin-left: 20px;
 }
+*/
+/*
 .hamburger{
     height: 30px;
     width: 30px;
@@ -27,6 +118,7 @@ body{
     overflow: hidden;
 
 }
+
 section{
     position: relative;
 }
@@ -65,4 +157,4 @@ section{
 .bg_text creative{
     position: absolute;
 /*    z-index: */
-}
+}*/
