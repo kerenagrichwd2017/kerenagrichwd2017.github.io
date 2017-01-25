@@ -1,0 +1,30 @@
+body{
+    background: lightgrey;
+}
+.container{
+    min-height: 100px;
+}
+.logo div {
+    background-color:#8C001A;
+    height 200px;
+    text-align: center;
+    color:#FFFFFF;
+    font-family: 'oswald', sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.nav div{
+    background-color: #696969;
+    text-align: center;
+    color:#000000;
+    font-family: 'oswald', sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px;
+}
+.bg_img img {
+    height: 250px;
+    width: 100%;
+}
+
+
