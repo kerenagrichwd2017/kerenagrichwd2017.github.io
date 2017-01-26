@@ -1,0 +1,21 @@
+.lightbox_hidden{
+    display: none;
+
+}
+.featherlight .featherlight-content{
+    background: hsl(30, 100%, 80%);
+    border: 3px solid red;
+}
+.mySlider img{
+    max-height: 300px;
+    max-width: 500px;
+}
+.slider2 img{
+    max-height: 300px;
+    max-width: 500px;
+}
+.rellax {
+    background: coral;
+    padding: 40px;
+
+}
