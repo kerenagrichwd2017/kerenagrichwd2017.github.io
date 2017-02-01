@@ -1,0 +1,12 @@
+.navbar{
+    background-color: firebrick;
+
+}
+.main_row{
+    background-color: lightgrey;
+    padding: 10px;
+}
+.main_row div{
+    height: 200px;
+    background-color: palevioletred;
+}
